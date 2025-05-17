@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Letícia Barbosa - Marketing Sensorial & Ebooks</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #111;
+    max-width: 820px;
+    margin: 40px auto;
+    padding: 0 30px 60px;
+    line-height: 1.6;
+    position: relative;
+  }
+
+  /* Linhas orgânicas pretas */
+  body::before, body::after {
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    border-radius: 50% 30% 50% 30% / 30% 50% 30% 50%;
+    opacity: 0.08;
+    z-index: 0;
+  }
+  body::before {
+    top: 20px;
+    left: -80px;
+    transform: rotate(15deg);
+  }
+  body::after {
+    bottom: 10px;
+    right: -100px;
+    transform: rotate(-20deg);
+  }
+
+  h1, h2, h3 {
+    color: #000;
+    margin-bottom: 0.4em;
+    position: relative;
+    z-index: 1;
+  }
+  h1 {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+  }
+  h2 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-top: 2.5em;
+  }
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-top: 2em;
+  }
+
+  p {
+    font-size: 1.15rem;
+    margin-bottom: 1.2em;
+    color: #222;
+    position: relative;
+    z-index: 1;
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 1.8em;
+    position: relative;
+    z-index: 1;
+  }
+  ul li {
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 1em;
+    font-weight: 500;
+    color: #333;
+  }
+  ul li::before {
+    content: "✔";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #000;
+    font-weight: 700;
+  }
+
+  /* Botão preto moderno */
+  .btn-download {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 38px;
+    border-radius: 40px;
+    font-weight: 700;
+    font-size: 1.2rem;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    z-index: 1;
+  }
+  .btn-download:hover {
+    background-color: #222;
+    box-shadow: 0 9px 18px rgba(0,0,0,0.35);
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  /* Espaço para fotos */
+  .photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 2em auto;
+    border-radius: 18px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Destaque para o ebook */
+  .ebook-highlight {
+    background: #f5f5f5;
+    border-left: 6px solid #000;
+    padding: 25px 30px;
+    margin-top: 1.8em;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.07);
+    position: relative;
+    z-index: 1;
+  }
+  .ebook-title {
+    font-weight: 700;
+    font-size: 1.9rem;
+    margin-bottom: 12px;
+    color: #000;
+    line-height: 1.2;
+  }
+  .ebook-subtitle {
+    font-weight: 500;
+    font-size: 1.1rem;
+    color: #444;
+    margin-bottom: 1em;
+  }
+  .italic {
+    font-style: italic;
+  }
+
+</style>
+</head>
+<body>
+
+  <!-- Apresentação -->
+  <header class="center">
+    <h1>Letícia Barbosa</h1>
+    <p><strong>Especialista em Marketing Digital & Social Media</strong></p>
+    <!-- Insira sua foto aqui -->
+    <!-- <img src="sua-foto.jpg" alt="Letícia Barbosa" class="photo" /> -->
+  </header>
+
+  <!-- Introdução persuasiva -->
+  <section>
+    <h2>Desperte os sentidos e transforme sua marca no mundo digital</h2>
+    <p>
+      Eu sou Letícia Barbosa, e minha missão é ajudar você a criar conexões verdadeiras com seu público, usando o poder do <strong>marketing sensorial</strong>. Em um mundo cada vez mais digital, estimular os sentidos é a chave para impactar e fidelizar clientes.
+    </p>
+    <p>
+      Por isso, desenvolvi um ebook exclusivo, que traz estratégias práticas para conectar sentidos e emoções no universo virtual — ampliando sua presença e resultados.
+    </p>
+  </section>
+
+  <!-- Espaço para foto ilustrativa -->
+  <!-- <img src="imagem-ebook.jpg" alt="Capa do Ebook Marketing Sensorial" class="photo" /> -->
+
+  <!-- Destaque do Ebook -->
+  <section class="ebook-highlight center">
+    <h3 class="ebook-title">Marketing Sensorial em Ambientes Virtuais:<br /> Conectando Sentidos no Mundo Digital</h3>
+    <p class="ebook-subtitle italic">
+      Descubra como criar experiências digitais inesquecíveis, que tocam o público de forma profunda e aumentam suas vendas.
+    </p>
+    <a href="URL_DO_SEU_EBOOK_AQUI.pdf" download class="btn-download" aria-label="Baixar Ebook Marketing Sensorial">
+      Baixar Agora
+    </a>
+  </section>
+
+  <!-- Benefícios -->
+  <section>
+    <h3>O que você vai aprender com este ebook:</h3>
+    <ul>
+      <li>Como aplicar o marketing sensorial para envolver e conquistar seu público;</li>
+      <li>Técnicas para criar conteúdos que despertam emoções e geram engajamento;</li>
+      <li>Estratégias para tornar sua marca inesquecível no ambiente digital;</li>
+      <li>Dicas práticas para usar os sentidos e melhorar a experiência do cliente;</li>
+      <li>Exemplos reais e aplicáveis para potencializar seu negócio.</li>
+    </ul>
+  </section>
+
+  <!-- Chamada final -->
+  <section class="center">
+    <p><strong>Está pronta para se destacar no mundo digital com estratégias que realmente conectam?</strong></p>
+    <a href="URL_DO_SEU_EBOOK_AQUI.pdf" download class="btn-download" aria-label="Quero baixar o ebook Marketing Sensorial">
+      Quero meu Ebook
+    </a>
+  </section>
+
+</body>
+</html>
